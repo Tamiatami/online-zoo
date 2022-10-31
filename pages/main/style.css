@@ -1,0 +1,283 @@
+body {
+    position: relative;
+width: 1600px;
+height: 4975px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+backdrop-filter: blur(2px);
+display:flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 10px;;
+
+}
+nav > ul {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.navbar-item {
+
+width: 75px;
+height: 22px;
+left: 759px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+color: #FFFFFF;
+text-decoration:none;
+list-style-type: none;
+margin:13px;
+}
+.logo {
+position: flex-start;
+width: 82px;
+height: 52px;
+left: 220px;
+top: 14px;
+}
+a {
+    text-decoration: none;
+   color: #FFFFFF;
+}
+a:hover{
+    color: orangered;
+}
+.designed-by {
+  color:blue;  
+}
+#panda{
+
+height: 780px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+#panda-text {
+    position: absolute;
+width: 500.31px;
+height: 400px;
+left: calc(50% - 500.31px/2 + 330.15px);
+top: 166px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+/* or 80px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+#panda-text > span{
+    color:yellow;
+}
+#eclipse {
+    position: absolute;
+width: 465px;
+height: 465px;
+left: calc(50% - 465px/2 + 239.5px);
+top: 92px;
+border: 0px solid; 
+border-radius:50% ;
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.watch-online{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+top: 626px;
+margin-top: 40px;
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+}
+
+
+.second-section {
+position: absolute;
+height: 403px;
+left: 219px;
+right: 220px;
+top: 920px;
+display:flex;
+flex-direction: row;
+}
+.second-section > img{
+position: absolute;
+width: 609px;
+height: 403px;
+left: 0px;
+top: 0px;
+}
+.second-section > .text h2 {
+    position: absolute;
+    height: 116px;
+    left: 696px;
+    right: 0px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    
+    color: #333B41;
+}
+.second-section > .text h3 {
+    
+position: absolute;
+width: 217px;
+height: 29px;
+left: calc(50% - 217px/2 + 224px);
+top: 232px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+
+color: #333B41;
+}
+.second-section > .text p{
+    position: absolute;
+    height: 42px;
+    left: 696px;
+    right: 0px;
+    top: 136px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    
+    
+    color: #333B41;
+    
+}
+#site{
+    position: absolute;
+    height: 105px;
+    left: 696px;
+    right: 0px;
+    top: 295px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    
+    
+    color: #333B41; 
+}
+
+.scroll-animals {
+position: absolute;
+width: 1158px;
+height: 872px;
+left: calc(50% - 1158px/2 - 1px);
+top: 1503px;
+
+background: #FFFFFF;
+display:grid;
+column-count: 3;
+box-sizing: border-box;
+}
+.animals {
+box-sizing: border-box;
+
+position: absolute;
+width: 366px;
+height: 426px;
+left: 180px;
+top: 7315px;
+
+border-radius: 5px;
+
+}
+
+.card-title{
+    position: absolute;
+width: 294px;
+height: 22px;
+left: 16px;
+top: 374px;
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.card-description{
+    position: absolute;
+width: 294px;
+height: 18px;
+left: 16px;
+top: 394px;
+
+/* smallParagraph */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+
+color: #000000;
+}
+div.animals >img{
+    position: absolute;
+width: 366px;
+height: 366px;
+left: 0px;
+top: 0px;
+}
+.food-icon{
+position: absolute;
+width: 48px;
+height: 38px;
+left: 310px;
+top: 374px;
+
+}
+
+
